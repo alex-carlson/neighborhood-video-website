@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { faTwitter, faTiktok, faBluesky, faSteam } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faTiktok, faBluesky, faSteam, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import SocialLink from './components/SocialLink';
 
 export default function Home() {
@@ -53,6 +53,13 @@ export default function Home() {
               label="Steam"
               colorClass="text-slate-200"
               hoverColorClass="hover:text-slate-400"
+            />
+            <SocialLink
+              href="https://discord.gg/7WN6ESwPV4"
+              icon={faDiscord}
+              label="Discord"
+              colorClass="text-indigo-500"
+              hoverColorClass="hover:text-indigo-600"
             />
           </nav>
         </div>
