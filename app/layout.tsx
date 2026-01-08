@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Neighborhood Video",
   description: "Be kind, please rewind!",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
 };
 
 export default function RootLayout({

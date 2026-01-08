@@ -4,7 +4,7 @@ import SocialLink from './components/SocialLink';
 
 export default function Home() {
   return (
-    <div className="min-h-screen items-start justify-center p-2 pt-4">
+    <div className="flex min-h-screen items-start justify-center p-2 pt-4">
       <main className="flex w-full max-w-3xl flex-col items-center">
         <div className="mb-16 w-full flex flex-col items-center space-y-4">
           <Image
@@ -14,7 +14,7 @@ export default function Home() {
             height={500}
             priority
           />
-          <div className="">
+          <div className="flex justify-center">
             <iframe src="https://store.steampowered.com/widget/4072630/" width="646" height="190" className="max-w-full"></iframe>
           </div>
           </div>
