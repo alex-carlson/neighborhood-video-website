@@ -14,15 +14,11 @@ export default function Home() {
             height={500}
             priority
           />
-          <p className="bg-white rounded-lg p-4 w-full">Crack the case of the missing video store employee in this 3D point and click puzzle game by solving escape room puzzles, combing the computer database, and stocking shelves as an undercover detective posing as a cashier during your first weekend at the suspiciously understaffed Neighborhood Video. </p>
-        </div>
+            <iframe src="https://store.steampowered.com/widget/4072630/" width="646" height="190" className="max-w-full"></iframe>
+          </div>
         <div className="w-full space-y-32">
           <div className="aspect-video w-full">
             <iframe width="768" height="315" src="https://www.youtube.com/embed/4vlnGeQbOO0?si=7NiqEPsAVH-WAESU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-full"></iframe>
-          </div>
-
-          <div className="flex justify-center">
-            <iframe src="https://store.steampowered.com/widget/4072630/" width="646" height="190" className="max-w-full"></iframe>
           </div>
 
           <nav className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6">
