@@ -22,7 +22,3 @@ body {
   color: var(--foreground);
   font-family: 'Bitter', Arial, Helvetica, sans-serif;
 }
-
-p {
-  font-size: 20px;
-}

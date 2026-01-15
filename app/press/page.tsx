@@ -30,13 +30,8 @@ export default function Press() {
                     <section className="space-y-4">
                         <h2 className="text-2xl border-b border-gray-600 pb-2">Game Overview</h2>
                         <div className="space-y-4">
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-lg leading-relaxed border-b border-gray-600 pb-2">
                                 Crack the case of the missing video store employee in this 3D point and click mystery game by solving escape room puzzles, combing the computer database, and stocking shelves as an undercover detective posing as a cashier during your first weekend at the suspiciously understaffed Neighborhood Video. </p>
-
-                            <p className="text-lg leading-relaxed"><b>Neighborhood Video</b> is part 90s video rental store simulator, part escape room, part database deduction, all totally radical.</p>
-
-                            <p className="text-lg leading-relaxed border-gray-600 border-b pb-2">It&apos;s like Crimson Room meets The Roottrees are Dead
-                            </p>
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div>
                                     <h3 className="text-lg font-medium mb-2">Key Features</h3>
@@ -57,6 +52,8 @@ export default function Press() {
                                         <li>Platform: PC/Mac/Linux (Steam)</li>
                                         <li>Release Window: Spring 2026</li>
                                         <li>Developers: Alex Carlson & Angela McColgan</li>
+                                        <li>Price: TBD</li>
+                                        <li>Website: https://nbhd.video</li>
                                     </ul>
                                 </div>
                             </div>
@@ -206,7 +203,7 @@ export default function Press() {
                         <h2 className="text-2xl border-b border-gray-600 pb-2">AI Stance Disclaimer</h2>
                         <div className="space-y-4">
                             <div>
-                                <p>
+                                <p className="text-sm">
                                     Neighborhood Video is independently created by Alex Carlson and Angela McColgan, without the use of AI.  All assets are either created by hand, free and open source, properly attributed and/or properly licensed.
                                 </p>
                             </div>
