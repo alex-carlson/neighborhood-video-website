@@ -28,7 +28,7 @@ export default function Press() {
                 <div className="w-full space-y-12 text-gray-700 bg-purple-300 p-8 rounded-lg">
                     {/* Game Overview */}
                     <section className="space-y-4">
-                        <h2 className="text-2xl font-semibold border-b border-gray-600 pb-2">Game Overview</h2>
+                        <h2 className="text-2xl border-b border-gray-600 pb-2">Game Overview</h2>
                         <div className="space-y-4">
                             <p className="text-lg leading-relaxed">
                                 Crack the case of the missing video store employee in this 3D point and click mystery game by solving escape room puzzles, combing the computer database, and stocking shelves as an undercover detective posing as a cashier during your first weekend at the suspiciously understaffed Neighborhood Video. </p>
@@ -64,7 +64,7 @@ export default function Press() {
                     </section>
 
                     <section className="space-y-4">
-                        <h2 className="text-2xl font-semibold border-b border-gray-600 pb-2">Media Assets</h2>
+                        <h2 className="text-2xl border-b border-gray-600 pb-2">Media Assets</h2>
                         <div className="mb-4">
                             <h3 className="text-lg font-medium mb-3">Media Package Download</h3>
                             <a
@@ -203,7 +203,7 @@ export default function Press() {
                     </section>
 
                     <section className="space-y-4">
-                        <h2 className="text-2xl font-semibold border-b border-gray-600 pb-2">AI Stance Disclaimer</h2>
+                        <h2 className="text-2xl border-b border-gray-600 pb-2">AI Stance Disclaimer</h2>
                         <div className="space-y-4">
                             <div>
                                 <p>
@@ -214,7 +214,7 @@ export default function Press() {
                     </section>
 
                     <section className="space-y-4">
-                        <h2 className="text-2xl font-semibold border-b border-gray-600 pb-2">Press Contact</h2>
+                        <h2 className="text-2xl border-b border-gray-600 pb-2">Press Contact</h2>
                         <div className="bg-gray-800 p-6 rounded">
                             <p className="mb-4 text-gray-200">For press inquiries, interviews, or additional information please reach us at:</p>
                             <div className="space-y-2 text-gray-300">
@@ -233,7 +233,7 @@ export default function Press() {
 
                     {/* Steam Widget */}
                     <section className="space-y-4">
-                        <h2 className="text-2xl font-semibold border-b border-gray-600 pb-2">Get the Game</h2>
+                        <h2 className="text-2xl border-b border-gray-600 pb-2">Get the Game</h2>
                         <div className="flex justify-center">
                             <iframe
                                 src="https://store.steampowered.com/widget/4072630/"
