@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { faTwitter, faTiktok, faBluesky, faSteam, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import SocialLink from './components/SocialLink';
 
@@ -17,7 +18,7 @@ export default function Home() {
           <div className="flex justify-center">
             <iframe src="https://store.steampowered.com/widget/4072630/" width="646" height="190" className="max-w-full"></iframe>
           </div>
-          </div>
+        </div>
         <div className="w-full space-y-32">
           <div className="aspect-video w-full">
             <iframe width="768" height="315" src="https://www.youtube.com/embed/4vlnGeQbOO0?si=7NiqEPsAVH-WAESU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-full"></iframe>
@@ -60,6 +61,16 @@ export default function Home() {
               hoverColorClass="hover:text-indigo-600"
             />
           </nav>
+
+          {/* Press Link */}
+          <div className="flex justify-center">
+            <Link
+              href="/press"
+              className="inline-flex items-center px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded transition-colors font-medium"
+            >
+              Press Kit & Media
+            </Link>
+          </div>
         </div>
         <footer className="mt-8 text-white text-sm bg-black p-4 rounded">
           Game & Site by Alex Carlson and Angela McColgan - {new Date().getFullYear()}
