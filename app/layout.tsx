@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     width: "device-width",
     initialScale: 1,
   },
+  icons: {
+    icon: "/seymour-icon.png",
+  },
 };
 
 export default function RootLayout({
