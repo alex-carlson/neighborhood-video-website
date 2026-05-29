@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="w-full space-y-32">
           <div className="aspect-video w-full">
-            <iframe width="768" height="315" src="https://www.youtube.com/embed/MWApiCWh5l8?si=t2xLEgpMKXpV8LmO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="w-full h-full"></iframe>
+            <iframe width="768" height="315" src="https://www.youtube.com/embed/MWApiCWh5l8?si=t2xLEgpMKXpV8LmO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="w-full h-full"></iframe>
           </div>
 
           <nav className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6">
