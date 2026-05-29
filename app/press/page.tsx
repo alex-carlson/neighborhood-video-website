@@ -31,7 +31,7 @@ export default function Press() {
                         <h2 className="text-2xl border-b border-gray-600 pb-2">Game Overview</h2>
                         <div className="space-y-4">
                             <p className="text-lg leading-relaxed border-b border-gray-600 pb-2">
-                                Crack the case of the missing video store employee in this 3D point and click mystery game by solving escape room puzzles, combing the computer database, and stocking shelves as an undercover detective posing as a cashier during your first weekend at the suspiciously understaffed Neighborhood Video. </p>
+                                Crack the case of the missing video store employee in this 3D point and click mystery game by solving escape room puzzles, combing the computer database, and inspecting shelves as an undercover detective posing as a cashier during your first weekend at the suspiciously understaffed Neighborhood Video. </p>
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div>
                                     <h3 className="text-lg font-medium mb-2">Key Features</h3>
