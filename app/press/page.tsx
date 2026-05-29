@@ -50,7 +50,7 @@ export default function Press() {
                                     <h3 className="text-lg font-medium mb-2">Game Details</h3>
                                     <ul className="space-y-1 list-disc list-inside">
                                         <li>Platform: PC/Mac/Linux (Steam)</li>
-                                        <li>Release Window: Spring 2026</li>
+                                        <li>Release Window: Summer 2026</li>
                                         <li>Developers: Alex Carlson & Angela McColgan</li>
                                         <li>Price: TBD</li>
                                         <li>Website: https://nbhd.video</li>
@@ -65,11 +65,11 @@ export default function Press() {
                         <div className="mb-4">
                             <h3 className="text-lg font-medium mb-3">Media Package Download</h3>
                             <a
-                                href="/NeighborhoodVideo_Media_Package.zip"
+                                href="/NeighborhoodVideo_Media_Package_v2.zip"
                                 download
                                 className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded transition-colors"
                             >
-                                Download All (.zip - 37MB)
+                                Download All (.zip - 57.1MB)
                             </a>
                         </div>
                         <div className="space-y-4">
@@ -105,11 +105,26 @@ export default function Press() {
                             </div>
 
                             <div>
+                                <h3 className="text-lg font-medium mb-3">Icon</h3>
+                                <div className="flex flex-col sm:flex-row gap-4">
+                                    <div>
+                                        <Image
+                                            src="/nv_icon.png"
+                                            alt="Neighborhood Video Icon"
+                                            width={600}
+                                            height={600}
+                                        />
+                                        <p className="text-sm mt-2">Game Icon (PNG)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
                                 <h3 className="text-lg font-medium mb-3">Screenshots</h3>
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                     <div>
                                         <Image
-                                            src="/screenshot1.png"
+                                            src="/ss1.png"
                                             alt="Neighborhood Video Screenshot 1"
                                             width={300}
                                             height={200}
@@ -118,7 +133,7 @@ export default function Press() {
                                     </div>
                                     <div >
                                         <Image
-                                            src="/screenshot2.png"
+                                            src="/ss2.png"
                                             alt="Neighborhood Video Screenshot 2"
                                             width={300}
                                             height={200}
@@ -127,7 +142,7 @@ export default function Press() {
                                     </div>
                                     <div >
                                         <Image
-                                            src="/screenshot3.png"
+                                            src="/ss3.png"
                                             alt="Neighborhood Video Screenshot 3"
                                             width={300}
                                             height={200}
@@ -136,7 +151,7 @@ export default function Press() {
                                     </div>
                                     <div >
                                         <Image
-                                            src="/screenshot4.png"
+                                            src="/ss4.png"
                                             alt="Neighborhood Video Screenshot 4"
                                             width={300}
                                             height={200}
@@ -145,7 +160,7 @@ export default function Press() {
                                     </div>
                                     <div >
                                         <Image
-                                            src="/screenshot5.png"
+                                            src="/ss5.png"
                                             alt="Neighborhood Video Screenshot 5"
                                             width={300}
                                             height={200}
@@ -154,7 +169,61 @@ export default function Press() {
                                     </div>
                                     <div >
                                         <Image
-                                            src="/screenshot6.png"
+                                            src="/ss6.png"
+                                            alt="Neighborhood Video Screenshot 6"
+                                            width={300}
+                                            height={200}
+                                            className="w-full h-auto rounded"
+                                        />
+                                    </div>
+                                    <div >
+                                        <Image
+                                            src="/ss7.png"
+                                            alt="Neighborhood Video Screenshot 6"
+                                            width={300}
+                                            height={200}
+                                            className="w-full h-auto rounded"
+                                        />
+                                    </div>
+                                    <div >
+                                        <Image
+                                            src="/ss8.png"
+                                            alt="Neighborhood Video Screenshot 6"
+                                            width={300}
+                                            height={200}
+                                            className="w-full h-auto rounded"
+                                        />
+                                    </div>
+                                    <div >
+                                        <Image
+                                            src="/ss9.png"
+                                            alt="Neighborhood Video Screenshot 6"
+                                            width={300}
+                                            height={200}
+                                            className="w-full h-auto rounded"
+                                        />
+                                    </div>
+                                    <div >
+                                        <Image
+                                            src="/ss10.png"
+                                            alt="Neighborhood Video Screenshot 6"
+                                            width={300}
+                                            height={200}
+                                            className="w-full h-auto rounded"
+                                        />
+                                    </div>
+                                    <div >
+                                        <Image
+                                            src="/ss11.png"
+                                            alt="Neighborhood Video Screenshot 6"
+                                            width={300}
+                                            height={200}
+                                            className="w-full h-auto rounded"
+                                        />
+                                    </div>
+                                    <div >
+                                        <Image
+                                            src="/ss12.png"
                                             alt="Neighborhood Video Screenshot 6"
                                             width={300}
                                             height={200}
@@ -169,7 +238,7 @@ export default function Press() {
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                     <div >
                                         <Image
-                                            src="/gif1.gif"
+                                            src="/gif4.gif"
                                             alt="Neighborhood Video GIF 1"
                                             width={300}
                                             height={200}
@@ -178,7 +247,7 @@ export default function Press() {
                                     </div>
                                     <div >
                                         <Image
-                                            src="/gif2.gif"
+                                            src="/gif5.gif"
                                             alt="Neighborhood Video GIF 2"
                                             width={300}
                                             height={200}
@@ -187,7 +256,7 @@ export default function Press() {
                                     </div>
                                     <div >
                                         <Image
-                                            src="/gif3.gif"
+                                            src="/gif6.gif"
                                             alt="Neighborhood Video GIF 3"
                                             width={300}
                                             height={200}
