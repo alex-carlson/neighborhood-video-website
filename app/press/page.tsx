@@ -76,16 +76,7 @@ export default function Press() {
                             <div>
                                 <h3 className="text-lg font-medium mb-3">Trailer</h3>
                                 <div className="aspect-video w-full max-w-2xl">
-                                    <iframe
-                                        width="768"
-                                        height="315"
-                                        src="https://www.youtube.com/embed/4vlnGeQbOO0?si=7NiqEPsAVH-WAESU"
-                                        title="Neighborhood Video Trailer"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerPolicy="strict-origin-when-cross-origin"
-                                        allowFullScreen
-                                        className="w-full h-full"
-                                    />
+                                    <iframe width="768" height="315" src="https://www.youtube.com/embed/MWApiCWh5l8?si=t2xLEgpMKXpV8LmO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="w-full h-full"></iframe>
                                 </div>
                             </div>
 
