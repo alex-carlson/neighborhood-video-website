@@ -69,7 +69,7 @@ export default function Press() {
                                 download
                                 className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded transition-colors"
                             >
-                                Download All (.zip - 57.1MB)
+                                Download All (.zip - 66.4MB)
                             </a>
                         </div>
                         <div className="space-y-4">
@@ -170,7 +170,7 @@ export default function Press() {
                                     <div >
                                         <Image
                                             src="/ss7.png"
-                                            alt="Neighborhood Video Screenshot 6"
+                                            alt="Neighborhood Video Screenshot 7"
                                             width={300}
                                             height={200}
                                             className="w-full h-auto rounded"
@@ -179,7 +179,7 @@ export default function Press() {
                                     <div >
                                         <Image
                                             src="/ss8.png"
-                                            alt="Neighborhood Video Screenshot 6"
+                                            alt="Neighborhood Video Screenshot 8"
                                             width={300}
                                             height={200}
                                             className="w-full h-auto rounded"
@@ -188,7 +188,7 @@ export default function Press() {
                                     <div >
                                         <Image
                                             src="/ss9.png"
-                                            alt="Neighborhood Video Screenshot 6"
+                                            alt="Neighborhood Video Screenshot 9"
                                             width={300}
                                             height={200}
                                             className="w-full h-auto rounded"
@@ -197,7 +197,7 @@ export default function Press() {
                                     <div >
                                         <Image
                                             src="/ss10.png"
-                                            alt="Neighborhood Video Screenshot 6"
+                                            alt="Neighborhood Video Screenshot 10"
                                             width={300}
                                             height={200}
                                             className="w-full h-auto rounded"
@@ -206,7 +206,7 @@ export default function Press() {
                                     <div >
                                         <Image
                                             src="/ss11.png"
-                                            alt="Neighborhood Video Screenshot 6"
+                                            alt="Neighborhood Video Screenshot 11"
                                             width={300}
                                             height={200}
                                             className="w-full h-auto rounded"
@@ -215,7 +215,7 @@ export default function Press() {
                                     <div >
                                         <Image
                                             src="/ss12.png"
-                                            alt="Neighborhood Video Screenshot 6"
+                                            alt="Neighborhood Video Screenshot 12"
                                             width={300}
                                             height={200}
                                             className="w-full h-auto rounded"
@@ -248,6 +248,15 @@ export default function Press() {
                                     <div >
                                         <Image
                                             src="/gif6.gif"
+                                            alt="Neighborhood Video GIF 3"
+                                            width={300}
+                                            height={200}
+                                            className="w-full h-auto rounded"
+                                        />
+                                    </div>
+                                    <div >
+                                        <Image
+                                            src="/gif7.gif"
                                             alt="Neighborhood Video GIF 3"
                                             width={300}
                                             height={200}
