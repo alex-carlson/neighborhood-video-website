@@ -65,11 +65,11 @@ export default function Press() {
                         <div className="mb-4">
                             <h3 className="text-lg font-medium mb-3">Media Package Download</h3>
                             <a
-                                href="/NeighborhoodVideo_Media_Package_v2.zip"
+                                href="/NeighborhoodVideo_Media_Package_v3.zip"
                                 download
                                 className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded transition-colors"
                             >
-                                Download All (.zip - 66.4MB)
+                                Download All (.zip)
                             </a>
                         </div>
                         <div className="space-y-4">
@@ -106,6 +106,21 @@ export default function Press() {
                                             height={600}
                                         />
                                         <p className="text-sm mt-2">Game Icon (PNG)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3 className="text-lg font-medium mb-3">Seymour Mascot Graphic</h3>
+                                <div className="flex flex-col sm:flex-row gap-4">
+                                    <div>
+                                        <Image
+                                            src="/seymour-transparent.png"
+                                            alt="Seymour Transparent Graphic"
+                                            width={600}
+                                            height={600}
+                                        />
+                                        <p className="text-sm mt-2">Seymour Graphic (PNG)</p>
                                     </div>
                                 </div>
                             </div>
